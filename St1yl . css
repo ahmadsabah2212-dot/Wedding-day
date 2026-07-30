@@ -1,1 +1,70 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #120d0a;
+    font-family: "Tahoma", sans-serif;
+    padding: 20px;
+}
+
+.invitation {
+    max-width: 600px;
+    width: 100%;
+    background: #1d1410;
+    border: 2px solid #c9a227;
+    border-radius: 20px;
+    padding: 40px 25px;
+    text-align: center;
+    color: #f7e7b5;
+    box-shadow: 0 0 30px rgba(201, 162, 39, 0.4);
+}
+
+.top h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #e7c45c;
+}
+
+.top p {
+    font-size: 18px;
+}
+
+.names {
+    margin: 35px 0;
+}
+
+.names h2 {
+    font-size: 30px;
+    color: #e7c45c;
+    margin-bottom: 15px;
+}
+
+.names h3 {
+    font-size: 24px;
+}
+
+.details {
+    margin: 25px 0;
+    line-height: 2;
+    font-size: 18px;
+}
+
+.message {
+    border-top: 1px solid #c9a227;
+    padding-top: 20px;
+    line-height: 2;
+    font-size: 17px;
+}
+
+.footer {
+    margin-top: 25px;
+    color: #e7c45c;
+    font-size: 20px;
