@@ -1,1 +1,47 @@
 
+<!DOCTYPE html>
+<html lang="ku" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بانگێشتنامەی مارەبڕین</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="invitation">
+
+        <div class="top">
+            <h1>بە ناوی خوای گەورە</h1>
+            <p>بە خۆشحاڵییەوە بانگهێشتی ئێوە دەکەین بۆ</p>
+        </div>
+
+        <div class="names">
+            <h2>ئاهەنگی مارەبڕین</h2>
+            <h3>ناوی کوڕ × ناوی کچ</h3>
+        </div>
+
+        <div class="details">
+            <p>📅 ڕۆژ: ............</p>
+            <p>⏰ کات: ............</p>
+            <p>📍 شوێن: ............</p>
+        </div>
+
+        <div class="message">
+            <p>
+                بە ئامادەبوونی ئێوە خۆشحاڵییەکەمان تەواوتر دەبێت.
+                چاوەڕێی هاتنتانین بۆ ئەم بۆنە تایبەتە.
+            </p>
+        </div>
+
+        <div class="footer">
+            <p>بە ڕێزەوە 🌹</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
