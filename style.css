@@ -81,3 +81,19 @@ body {
     color: #e7c45c;
     font-size: 20px;
 }
+.decoration {
+    font-size: 30px;
+    color: #d4af37;
+    margin-bottom: 20px;
+    letter-spacing: 8px;
+    animation: shine 2s infinite alternate;
+}
+
+@keyframes shine {
+    from {
+        opacity: 0.6;
+    }
+    to {
+        opacity: 1;
+    }
+}
