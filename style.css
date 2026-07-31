@@ -3,7 +3,7 @@
    =========================== */
 
 *{
-    margin:0;
+    ;
     padding:0;
     box-sizing:border-box;
 }
@@ -236,32 +236,4 @@ footer{
 }
 
 .event-info{
-    grid-template-columns:1fr;
-}
-
-.info-item{
-    padding:15px;
-}
-
-.location-btn{
-    width:100%;
-}
-
-footer{
-    font-size:18px;
-}
-
-}
-
-/* ===========================
-   Small Phones
-   =========================== */
-
-@media(max-width:430px){
-
-.card{
-    border-radius:22px;
-}
-
-.ayah{
-    font-size:18px
+    grid-template-columns:1fr
