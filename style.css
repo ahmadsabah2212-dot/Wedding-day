@@ -115,3 +115,14 @@ body {
     color: #d4af37;
     text-shadow: 0 0 15px rgba(212,175,55,0.5);
 }
+.details p {
+    margin: 12px 0;
+    padding: 10px;
+    border-bottom: 1px solid rgba(212,175,55,0.3);
+    color: #f7e7b5;
+}
+
+.details span {
+    color: #d4af37;
+    font-weight: bold;
+}
