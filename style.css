@@ -1,6 +1,4 @@
-body {
-    background: red !important;
-}
+
 * {
     margin: 0;
     padding: 0;
@@ -66,10 +64,6 @@ body {
     font-size: 17px;
 }
 
-.footer {
-    margin-top: 25px;
-    color: #e7c45c;
-    font-size: 20px;
 .footer {
     margin-top: 25px;
     color: #e7c45c;
