@@ -82,11 +82,9 @@ body {
     font-size: 20px;
 }
 .decoration {
-    font-size: 30px;
-    color: #d4af37;
+    font-size: 42px;
     margin-bottom: 20px;
-    letter-spacing: 8px;
-    animation: shine 2s infinite alternate;
+    animation: float 3s ease-in-out infinite;
 }
 
 @keyframes shine {
@@ -125,4 +123,15 @@ body {
 .details span {
     color: #d4af37;
     font-weight: bold;
+}
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-6px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
