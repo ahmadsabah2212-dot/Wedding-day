@@ -166,3 +166,46 @@ body {
     bottom: 15px;
     right: 15px;
 }
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(35px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.invitation {
+    animation: fadeUp 1.5s ease-out;
+}
+
+.top,
+.names,
+.details,
+.message,
+.footer {
+    opacity: 0;
+    animation: fadeUp 1s ease forwards;
+}
+
+.top {
+    animation-delay: 0.3s;
+}
+
+.names {
+    animation-delay: 0.8s;
+}
+
+.details {
+    animation-delay: 1.3s;
+}
+
+.message {
+    animation-delay: 1.8s;
+}
+
+.footer {
+    animation-delay: 2.3s;
+}
