@@ -209,3 +209,43 @@ body {
 .footer {
     animation-delay: 2.3s;
 }
+/* Gold Border Glow */
+.invitation {
+    position: relative;
+    animation: fadeUp 1.5s ease-out,
+               glow 3s ease-in-out infinite;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 20px rgba(212,175,55,0.25);
+        border-color: #c9a227;
+    }
+
+    50% {
+        box-shadow: 0 0 45px rgba(212,175,55,0.7);
+        border-color: #f5d76e;
+    }
+
+    100% {
+        box-shadow: 0 0 20px rgba(212,175,55,0.25);
+        border-color: #c9a227;
+    }
+}
+    .corner {
+    animation: flowerFloat 4s ease-in-out infinite;
+}
+
+@keyframes flowerFloat {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    50% {
+        transform: rotate(3deg) scale(1.05);
+    }
+
+    100% {
+        transform: rotate(0deg) scale(1);
+    }
+}
