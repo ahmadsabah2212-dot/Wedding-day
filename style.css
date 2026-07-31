@@ -55,11 +55,11 @@ transform:translateY(-120px);
 
 .card{
 
-width:min(92%,760px);
 
+width:min(96%,900px);
 margin:40px auto;
 
-padding:55px 35px;
+padding:35px 25px;
 
 border-radius:35px;
 
@@ -165,7 +165,7 @@ margin:20px 0;
 
 .name{
 
-font-size:56px;
+font-size:68px;
 
 font-weight:bold;
 
@@ -212,7 +212,7 @@ transform:scale(1.15);
     font-size:22px;
     line-height:2.1;
     color:#ececec;
-    margin:15px 0;
+    margin:8px 0;
 }
 
 h2{
