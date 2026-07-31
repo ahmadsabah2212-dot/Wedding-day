@@ -156,7 +156,29 @@ footer{
         font-size:14px;
         line-height:1.6;
     }
+.event-info{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:6px;
+    margin-top:15px;
+}
 
+.info-item{
+    background:#faf3e6;
+    border-radius:10px;
+    padding:6px 3px;
+    text-align:center;
+}
+
+.info-item span{
+    display:block;
+    font-size:18px;
+}
+
+.info-item p{
+    font-size:12px;
+    margin:3px 0;
+}
 
     .event-info{
         gap:6px;
