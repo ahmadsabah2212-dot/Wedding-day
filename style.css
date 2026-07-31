@@ -135,3 +135,34 @@ body {
         transform: translateY(0);
     }
 }
+.invitation {
+    position: relative;
+    overflow: hidden;
+}
+
+.corner {
+    position: absolute;
+    font-size: 38px;
+    color: #d4af37;
+    opacity: 0.9;
+}
+
+.top-left {
+    top: 15px;
+    left: 15px;
+}
+
+.top-right {
+    top: 15px;
+    right: 15px;
+}
+
+.bottom-left {
+    bottom: 15px;
+    left: 15px;
+}
+
+.bottom-right {
+    bottom: 15px;
+    right: 15px;
+}
