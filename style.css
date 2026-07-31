@@ -97,3 +97,21 @@ body {
         opacity: 1;
     }
 }
+.names h3 {
+    font-size: 32px;
+    color: #f7e7b5;
+    margin-top: 20px;
+    text-shadow: 0 0 10px rgba(212,175,55,0.7);
+}
+
+.names h3 span {
+    color: #d4af37;
+    font-size: 38px;
+    margin: 0 12px;
+}
+
+.names h2 {
+    font-size: 34px;
+    color: #d4af37;
+    text-shadow: 0 0 15px rgba(212,175,55,0.5);
+}
