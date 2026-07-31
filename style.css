@@ -180,14 +180,13 @@ body {
 .invitation {
     animation: fadeUp 1.5s ease-out;
 }
-
-.top,
+  .top,
 .names,
 .details,
 .message,
 .footer {
-    opacity: 0;
-    animation: fadeUp 1s ease forwards;
+    opacity: 1;
+}  
 }
 
 .top {
